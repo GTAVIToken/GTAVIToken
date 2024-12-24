@@ -22,7 +22,16 @@
                 <li><a href="#Info">Info</a></li>
                 <li><a href="#social">Social</a></li>
             </ul>
-        </nav>
+        </nav> 
+
+        <div class="music-container">
+            <div class="music-player">
+                <audio autoplay loop controls>
+                <source src="relaxing.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div> 
 
         <div class="modelviewer">
         <model-viewer 
@@ -35,6 +44,7 @@
             shadow-intensity="1" 
             exposure="5">
         </model-viewer>
+
         <script>
             const toggle = document.querySelector('.toggle');
             const menu = document.querySelector('nav ul');
@@ -44,6 +54,7 @@
             });
         </script>
         </div>
+
         <div class="parrafo-container" id="coin">
         <div class="parrafo">
             <h1>GTA VI Token</h1>
@@ -82,5 +93,7 @@
         
     </div>
 
+
+    
 </body>
 </html>
