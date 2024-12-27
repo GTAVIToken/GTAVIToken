@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    background: linear-gradient(180deg, #ff69da, #ffb65d);
+
 }
 
 body, html {
@@ -9,7 +11,6 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-     background-color: #ffa2f3;
 }
 
 /* Navegador */
@@ -100,8 +101,7 @@ nav ul li a:hover {
 /* Modelo 3D */
 model-viewer {
     width: 100%;
-    height: 75vh;
-    background-color: #ffa2f3;
+    height: 85vh;
     margin-top: 10px;
 }
 
@@ -111,17 +111,23 @@ model-viewer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 }
 
 /* Texto-parrafo */
+
+.fondo-parrafo {
+    background-color: #ffb269; 
+}
+
 .parrafo-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 5%;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 5%;
 }
 
 .parrafo {
@@ -131,7 +137,7 @@ model-viewer {
     font-size: 1.08em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(0, 0, 0, 0.247);
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
 }
 
@@ -163,7 +169,7 @@ footer {
 }
 
 .footer-social a:hover {
-    color: #ffa2f3;
+    color: #ffb269;
 }
 
 .footer-text {
@@ -173,25 +179,3 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Musica */
-.music-container {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-
-.music-player {
-    padding: 30px;
-    transform: scale(0.8); 
-}
-
-@media (max-width: 600px) {
-    .music-player {
-        padding-bottom: 15%;
-        margin-top: -15%;
-    }
-}
-
-  audio {
-    width: 300px;
-  }
