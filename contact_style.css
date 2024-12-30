@@ -105,7 +105,7 @@ main {
 /* Texto-parrafo */
 
 .title {
-    font-size: 2em
+    font-size: 2em;
 }
 
 .text-deco {
@@ -137,7 +137,7 @@ main {
 }
 /* Enviar correo */
 form {
-    max-width: 400px;
+    max-width: auto;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -166,7 +166,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #45a049;
+    background-color: #000000c5;
 }
 
 
