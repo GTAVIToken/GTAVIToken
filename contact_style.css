@@ -32,7 +32,7 @@ nav .logo {
 
 nav .logo:hover{
     cursor: pointer;
-    color: #ffb65d;
+    color: #ffa2f3;
     transition: .5s;
     scale: 1.03;
 }
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffb65d;
+    color: #ffa2f3;
 }
 
 @media (max-width: 768px) {
