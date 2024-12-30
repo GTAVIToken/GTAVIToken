@@ -1,7 +1,5 @@
 html {
     scroll-behavior: smooth;
-    background: linear-gradient(180deg, #ff69da, #ffb65d);
-
 }
 
 body, html {
@@ -100,7 +98,8 @@ nav ul li a:hover {
 
 /* Contenedor principal */
 main {
-    flex: 1; 
+    flex: 1;
+    background: linear-gradient(180deg, #ff69da, #ffb65d);
 }
 
 /* Texto-parrafo */
@@ -136,6 +135,40 @@ main {
         flex: 1 1 100%; 
     }
 }
+/* Enviar correo */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
 
 /* Footer */
 footer {
