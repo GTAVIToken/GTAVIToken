@@ -115,7 +115,7 @@ main {
 }
 
 .parrafo-container {
-    max-width: 1100px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 8%;
 }
@@ -165,4 +165,3 @@ footer {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
